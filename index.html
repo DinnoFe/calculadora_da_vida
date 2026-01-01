@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Conversor de idade</title>
+    <title>Tempo Vivido</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Conversor de idade</h1>
-        <p>Seu tempo de vida:<span id="tempoDeVida"></span></p>
-        <input type="number" id="idade" placeholder="Digite sua idade em anos">
-        <button onclick="calculadora_da_vida()">Calcular tempo de vida em dias</button>
+    <div class="container card">
+        <h1>Tempo Vivido</h1>
+        <p>Seu tempo de vida:<span id="tempoDeVida"> 0000 </span>dias</p>
+        <div class="input-group">
+            <input type="number" id="idade" placeholder="Digite sua idade">
+            <button onclick="calculadora_da_vida()">Calcular</button>
+        </div>
     </div>
     <script src="./assets/js/script.js"></script>
 </body>

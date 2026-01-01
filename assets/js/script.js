@@ -4,7 +4,7 @@ function calculadora_da_vida() {
     const umAno = 365;
     const tempoDeVida = userIdade * umAno;
 
-    document.getElementById("tempoDeVida").innerText = ` ${tempoDeVida} dias`;
+    document.getElementById("tempoDeVida").innerText = ` ${tempoDeVida} `;
     
     return tempoDeVida;
 }
