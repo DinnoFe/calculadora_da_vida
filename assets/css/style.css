@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7f6;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.container.card {
+    width: 500px; /* Define um tamanho fixo para o card */
+    min-height: 300px; /* Define uma altura mínima */
 }
 
 header {
@@ -76,4 +81,27 @@ header {
 .input-group button {
     flex: 1;
     padding: 8px;
+}
+
+span[id] {
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant-numeric: tabular-nums;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+/* Largura específica para cada um baseada no valor máximo de 100 anos */
+#dias_vivo {
+    min-width: 7ch;  /* Espaço para "00.000" */
+}
+
+#horas_vivo {
+    min-width: 8ch;  /* Espaço para "000.000" */
+}
+
+#minutos_vivo {
+    min-width: 11ch; /* Espaço para "00.000.000" */
 }
