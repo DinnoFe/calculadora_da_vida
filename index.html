@@ -8,11 +8,23 @@
 </head>
 <body>
     <div class="container card">
-        <h1>Tempo Vivido</h1>
-        <p>Seu tempo de vida:<span id="tempoDeVida"> 0000 </span>dias</p>
+        <!-- Header section -->
+        <header>
+            <h1>Tempo Vivido</h1>
+            <p>Veja quanto tempo você já viveu</p>
+        </header>
+
+        <!-- Input section -->
         <div class="input-group">
-            <input type="number" id="idade" placeholder="Digite sua idade">
+            <h6>digite sua idade:</h6>
+            <input type="number" id="idade" placeholder="Ex: 25" />
             <button onclick="calculadora_da_vida()">Calcular</button>
+        </div>
+
+        <!-- Result section -->
+        <div>
+            <p></p><span id="dias_vivo"></span> Dias vividos ate agora</p>
+            <p>isso equivalente a <span id="horas"></span> horas <span id="minutos"></span> minutos</p>
         </div>
     </div>
     <script src="./assets/js/script.js"></script>

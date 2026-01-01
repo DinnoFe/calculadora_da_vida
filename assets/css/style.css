@@ -27,7 +27,7 @@ body {
     text-align: center;
 }
 
-.card h1 {
+header {
     background-color: #287d3c;
     color: white;
     border-radius: 5px 5px 0 0;
@@ -38,19 +38,11 @@ body {
 .card p {
     font-size: 1.2em;
     padding: .5em;
-    margin: 10px 0;
 }
 
-.card input {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 50%;
-    height: 100%;
-    padding: 1.5em;
-}
 
 .card button {
-    width: 50%;
+    width: 30%;
     background-color: #28a745;
     color: white;
     border: none;
@@ -65,7 +57,23 @@ body {
 
 .input-group {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    height: 5em;
-    padding: 0 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
+    align-items: center;
+}
+
+.input-group h6 {
+    flex: 0 0 100%;
+    text-align: start;
+}
+
+.input-group input {
+    flex: 2;
+    padding: 8px;
+}
+
+.input-group button {
+    flex: 1;
+    padding: 8px;
 }
