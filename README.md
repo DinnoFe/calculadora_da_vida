@@ -2,7 +2,8 @@
 
 > Uma aplicação interativa que calcula o tempo de vida do utilizador em dias, horas e minutos, com animações dinâmicas de processamento.
 
-![Demonstração do Projeto](./assets/tempo_vivo_demo.gif)
+![tempo_vivo_demo](https://github.com/user-attachments/assets/1c72cf75-951c-483e-b35d-f844c8fbd08c)
+
 
 ## 🎯 Objetivo
 Este projeto foi desenvolvido para praticar a manipulação avançada do **DOM**, lógica de temporizadores em JavaScript (`setInterval`) e estratégias de **estabilidade de layout** no CSS.
